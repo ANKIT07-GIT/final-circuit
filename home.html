@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fitness Tracker</h1>
+        <div class="tabs">
+            <button class="tab-button active" onclick="showTab('NEO6M')">NEO6M</button>
+            <button class="tab-button" onclick="showTab('MAX30102')">MAX30102</button>
+        </div>
+        <div id="NEO6M" class="tab-content active">
+            <h2>NEO6M</h2>
+            <p>Welcome to your fitness tracker Sensor. Track your progress here!</p>
+        </div>
+        <div id="MAX30102" class="tab-content">
+            <h2>MAX30102</h2>
+            <p>welcome to your fitness tracker sensor </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
